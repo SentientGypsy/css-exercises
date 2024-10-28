@@ -7,7 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  
 }
 
 img {
@@ -19,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
+
 }
 
 input {
@@ -28,13 +30,16 @@ input {
   width: 400px;
 }
 ul {
+  display: flex;
   list-style-type: none;
-  padding: 2px;
-  
+  padding: 0px;
+  margin: 0;
+  gap: 16px;
 }
 
 a {
   text-decoration: none;
+  color:#666666
 }
 
 .header, .footer{
@@ -49,7 +54,7 @@ padding: 10px;
 
 .footer {
   background-color: #eeeeee;
-  justify-content: center;
+  
   
   
 }
